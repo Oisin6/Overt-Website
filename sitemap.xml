@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- When you publish the pricing-guide blog post, add its <url> block here and
-       remove the noindex line from that page. Draft posts stay out of the sitemap. -->
   <url>
     <loc>https://overt.ie/</loc>
-    <lastmod>2026-07-01</lastmod>
+    <lastmod>2026-07-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -52,8 +50,20 @@
   </url>
   <url>
     <loc>https://overt.ie/blog/</loc>
-    <lastmod>2026-07-01</lastmod>
+    <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://overt.ie/blog/5-videos-every-service-business-needs/</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://overt.ie/blog/how-much-does-a-promotional-video-cost-in-ireland/</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>
