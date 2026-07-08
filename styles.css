@@ -334,3 +334,46 @@ a.card { text-decoration: none; }
 .enquiry-form textarea { resize: vertical; }
 .enquiry-form button { margin-top: 0.35rem; cursor: pointer; border: none; font: inherit; font-weight: 700; }
 .enquiry-form .form-note { color: var(--muted); font-size: 0.85rem; margin-top: 0.8rem; }
+
+
+/* ---- Work: showreel + results + brands ---- */
+.work-showreel { display: flex; gap: 3.5rem; align-items: center; flex-wrap: wrap; justify-content: center; }
+.work-reel { width: 300px; }
+.work-reel-copy { max-width: 420px; }
+.work-reel-copy .tight { margin-top: 0; }
+.results-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 2.5rem; align-items: center; margin-top: 2.2rem; }
+.results-stats .stat { padding: 1.1rem 0; border-bottom: 1px solid var(--line); }
+.stat-num { font-family: 'Bebas Neue', sans-serif; font-size: 3.2rem; line-height: 1; color: var(--red); }
+.stat-label { color: var(--muted-2); font-size: 0.95rem; margin-top: 0.25rem; }
+.results-note { color: var(--muted); font-size: 0.92rem; margin-top: 1.2rem; }
+.results-proof { display: flex; gap: 1rem; align-items: flex-start; justify-content: center; }
+.results-proof img { border-radius: 12px; max-width: 48%; height: auto; box-shadow: 0 8px 30px rgba(0,0,0,0.45); }
+.brand-strip { display: flex; gap: 1.25rem; justify-content: center; align-items: stretch; flex-wrap: wrap; margin-top: 1.4rem; }
+.brand-chip { display: flex; align-items: center; justify-content: center; border-radius: 12px; padding: 1rem 1.6rem; min-height: 84px; }
+.brand-chip.light { background: #FFFFFF; }
+.brand-chip.dark { background: var(--mid2); border: 1px solid var(--line); }
+.brand-chip img { max-height: 52px; max-width: 200px; width: auto; height: auto; }
+@media (max-width: 760px) {
+  .results-grid { grid-template-columns: 1fr; }
+  .results-proof img { max-width: 46%; }
+}
+
+/* ---- About layout ---- */
+.about-layout { display: flex; gap: 3rem; align-items: center; flex-wrap: wrap; justify-content: center; }
+.about-photo { border-radius: 16px; width: 340px; max-width: 100%; height: auto; box-shadow: 0 10px 40px rgba(0,0,0,0.5); }
+.about-layout .prose { max-width: 520px; }
+
+/* ---- Lead popup ---- */
+.lead-pop { position: fixed; right: 18px; bottom: 18px; z-index: 90; width: 330px; max-width: calc(100vw - 36px);
+  background: var(--mid); border: 1px solid rgba(212,43,43,0.5); border-radius: 14px; padding: 1.3rem 1.3rem 1.1rem;
+  box-shadow: 0 12px 44px rgba(0,0,0,0.6); opacity: 0; transform: translateY(24px); transition: all .35s ease; }
+.lead-pop.on { opacity: 1; transform: translateY(0); }
+.lead-pop h4 { font-size: 1.05rem; color: var(--white); margin: 0 0 0.35rem; }
+.lead-pop p { color: var(--muted-2); font-size: 0.87rem; margin: 0 0 0.8rem; line-height: 1.5; }
+.lead-pop input { display: block; width: 100%; margin-bottom: 0.6rem; padding: 0.6rem 0.75rem; background: var(--mid2);
+  color: var(--white); border: 1px solid var(--line); border-radius: 8px; font: inherit; font-size: 0.9rem; }
+.lead-pop input:focus { outline: none; border-color: var(--red); }
+.lead-pop button { width: 100%; cursor: pointer; border: none; font: inherit; font-weight: 700; }
+.lead-pop .lp-x { position: absolute; top: 8px; right: 12px; background: none; border: none; color: var(--muted);
+  font-size: 1.3rem; width: auto; cursor: pointer; line-height: 1; padding: 4px; }
+.lead-pop .lp-x:hover { color: var(--white); }
