@@ -107,11 +107,11 @@
 
           <div class="form-row">
             <label>Your name<input type="text" name="Name" required autocomplete="name"></label>
-            <label>Business name<input type="text" name="Business" required autocomplete="organization"></label>
+            <label>Business name<input type="text" name="Business" autocomplete="organization"></label>
           </div>
           <div class="form-row">
             <label>Email<input type="email" name="Email" required autocomplete="email"></label>
-            <label>Phone <span class="optional">(optional)</span><input type="tel" name="Phone" autocomplete="tel"></label>
+            <label>Phone<input type="tel" name="Phone" autocomplete="tel"></label>
           </div>
           <label>What are you after?
             <select name="Interested in">
@@ -122,9 +122,9 @@
             </select>
           </label>
           <label>Tell me a bit about the business and what you want video to do
-            <textarea name="Message" rows="5" required placeholder="e.g. We're a construction firm in Dublin 12, great reputation, invisible online…"></textarea>
+            <textarea name="Message" rows="5" placeholder="e.g. We're a construction firm in Dublin 12, great reputation, invisible online…"></textarea>
           </label>
-          <label>Good times to ring you <span class="optional">(optional)</span>
+          <label>Good times to ring you
             <input type="text" name="Preferred call times" placeholder="e.g. weekday mornings">
           </label>
           <button type="submit" class="btn btn-red">Send it &rarr;</button>
