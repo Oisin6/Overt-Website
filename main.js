@@ -1,4 +1,4 @@
-/* Overt Creative — shared JS */
+/* Overt Creative shared JS */
 (function () {
   // Mobile nav toggle
   var nav = document.querySelector('nav.site-nav');
@@ -42,7 +42,7 @@
     d.innerHTML =
       '<button class="lp-x" aria-label="Close">&times;</button>' +
       '<h4>Want video that pulls customers in?</h4>' +
-      '<p>Leave your details and Oisin will get back to you &mdash; usually the same day.</p>' +
+      '<p>Leave your details and Oisin will get back to you, usually the same day.</p>' +
       '<form action="https://formsubmit.co/Oisin@Overt.ie" method="POST">' +
       '<input type="hidden" name="_subject" value="Popup lead from overt.ie">' +
       '<input type="hidden" name="_next" value="https://overt.ie/contact/thanks/">' +
